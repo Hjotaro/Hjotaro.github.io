@@ -3,57 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Curiosidades incríveis sobre a fauna mundial.">
+    <meta name="description" content="Curiosidades incríveis sobre a fauna mundial e fatos surpreendentes sobre animais.">
     <title>Curiosidades da Fauna</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f0fdf4; color: #333; }
-        header { background: #166534; color: #fff; padding: 30px 0; text-align: center; }
-        nav { background: #14532d; padding: 10px; text-align: center; }
-        nav a { color: #fff; text-decoration: none; margin: 0 15px; font-weight: bold; font-size: 18px; }
-        .container { width: 90%; max-width: 1000px; margin: auto; padding: 20px; background: white; margin-top: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-        .post { margin-bottom: 40px; border-bottom: 1px solid #eee; padding-bottom: 20px; }
-        h1 { margin: 0; font-size: 2.5em; }
-        h2 { color: #166534; }
-        .ad-space { width: 100%; height: 100px; background: #f9f9f9; border: 2px dashed #ccc; display: flex; align-items: center; justify-content: center; margin: 20px 0; color: #888; font-weight: bold; }
-        footer { background: #14532d; color: #fff; text-align: center; padding: 20px; margin-top: 40px; }
+        /* Estilos Gerais */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #f0fdf4; color: #333; line-height: 1.6; }
+        
+        /* Cabeçalho */
+        header { background: linear-gradient(to right, #14532d, #166534); color: #fff; padding: 40px 0; text-align: center; border-bottom: 5px solid #22c55e; }
+        h1 { margin: 0; font-size: 2.8em; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+        header p { font-size: 1.2em; margin-top: 10px; opacity: 0.9; }
+
+        /* Menu de Navegação */
+        nav { background: #064e3b; padding: 15px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        nav a { color: #fff; text-decoration: none; margin: 0 15px; font-weight: bold; font-size: 18px; transition: color 0.3s; }
+        nav a:hover { color: #86efac; }
+
+        /* Corpo do Site */
+        .container { width: 90%; max-width: 900px; margin: auto; padding: 30px; background: white; margin-top: 30px; margin-bottom: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        
+        /* Artigos */
+        .post { margin-bottom: 50px; border-bottom: 1px solid #eee; padding-bottom: 30px; }
+        .post:last-child { border-bottom: none; }
+        h2 { color: #15803d; font-size: 2em; border-left: 5px solid #22c55e; padding-left: 15px; margin-bottom: 20px; }
+        p { font-size: 1.1em; color: #4b5563; margin-bottom: 15px; }
+        strong { color: #14532d; }
+
+        /* Lista Top 10 */
+        .top-list { list-style: none; padding: 0; }
+        .top-list li { background: #f0fdf4; border: 1px solid #dcfce7; margin-bottom: 12px; padding: 15px; border-radius: 8px; font-size: 1.05em; }
+        .top-list li strong { font-size: 1.1em; display: block; margin-bottom: 5px; color: #166534; }
+
+        /* Espaço de Anúncios (AdSense) */
+        .ad-space { width: 100%; height: 120px; background: #f9fafb; border: 2px dashed #d1d5db; display: flex; align-items: center; justify-content: center; margin: 30px 0; color: #9ca3af; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; border-radius: 8px; }
+
+        /* Rodapé */
+        footer { background: #064e3b; color: #fff; text-align: center; padding: 30px; margin-top: 0; font-size: 0.9em; }
     </style>
 </head>
 <body>
 
     <header>
         <h1>🌿 Curiosidades da Fauna 🦁</h1>
-        <p>Os segredos mais incríveis do mundo animal</p>
+        <p>Descubra os segredos mais incríveis do reino animal</p>
     </header>
 
     <nav>
         <a href="#">Início</a>
-        <a href="#">Mamíferos</a>
-        <a href="#">Aves</a>
-        <a href="#">Répteis</a>
+        <a href="#">Curiosidades</a>
+        <a href="#">Recordes</a>
+        <a href="#">Sobre</a>
     </nav>
 
     <div class="container">
         
-        <div class="ad-space">Espaço para Anúncio (Google AdSense)</div>
+        <div class="ad-space">Publicidade</div>
+
+        <div class="post">
+            <h2>👁️ Top 10: Animais com a Melhor Visão do Mundo</h2>
+            <p>Você acha que enxerga bem? Perto desses animais, a visão humana parece ultrapassada! Preparamos um ranking com os verdadeiros "super olhos" da natureza:</p>
+            
+            <ul class="top-list">
+                <li>🦅 <strong>1. Águia</strong><br>Ela consegue enxergar uma pequena presa a quilômetros de distância. Sua retina tem milhões de células sensíveis à luz a mais que a nossa.</li>
+                
+                <li>🦐 <strong>2. Camarão Mantis</strong><br>O recordista absoluto! Enquanto humanos têm 3 receptores de cores, ele tem 16. Ele vê o mundo em cores que nem conseguimos imaginar (como ultravioleta polarizado).</li>
+                
+                <li>🦉 <strong>3. Coruja</strong><br>A rainha da noite. Seus olhos não são esferas, são tubos! Isso funciona como um binóculo fixo de alta precisão para caça noturna.</li>
+                
+                <li>🚁 <strong>4. Libélula</strong><br>Seus olhos compostos cobrem quase a cabeça inteira, dando uma visão de 360 graus. Ela processa imagens tão rápido que vê o mundo em câmera lenta.</li>
+                
+                <li>🦈 <strong>5. Tubarão</strong><br>Em águas turvas e escuras, ele enxerga 10 vezes melhor que um humano, graças a uma camada reflexiva atrás da retina chamada <em>tapetum lucidum</em>.</li>
+                
+                <li>🐐 <strong>6. Cabra / Bode</strong><br>Já notou a pupila retangular? Ela permite uma visão panorâmica incrível do horizonte para detectar predadores enquanto pastam.</li>
+                
+                <li>🐈 <strong>7. Gato Doméstico</strong><br>Precisam de apenas 1/6 da luz que nós precisamos. Qualquer fresta de luz vira um holofote para eles.</li>
+                
+                <li>🐒 <strong>8. Tarsio</strong><br>Esse pequeno primata tem olhos tão grandes que são maiores que seu próprio cérebro! Perfeitos para caçar insetos no escuro total.</li>
+                
+                <li>⚡ <strong>9. Falcão Peregrino</strong><br>Mesmo mergulhando a 300km/h, ele consegue manter o foco nítido na presa sem que o vento atrapalhe ou embace a visão.</li>
+                
+                <li>🦎 <strong>10. Camaleão</strong><br>O único que olha para dois lugares ao mesmo tempo. Ele move cada olho de forma independente, tendo visão de 360 graus sem mexer a cabeça.</li>
+            </ul>
+        </div>
+
+        <div class="ad-space">Publicidade</div>
 
         <div class="post">
             <h2>🦒 O coração gigante da Girafa</h2>
-            <p>Você sabia? Para bombear sangue até o cérebro lá no alto, o coração de uma girafa precisa ser uma máquina potente. Ele pesa cerca de <strong>11 quilos</strong> e tem paredes musculares super espessas.</p>
-            <p>Além disso, a natureza é sábia: elas têm válvulas especiais no pescoço que impedem que o sangue desça rápido demais quando elas se abaixam para beber água. Sem isso, elas desmaiariam!</p>
+            <p>Para bombear sangue até o cérebro lá no alto (quase 6 metros do chão), o coração de uma girafa precisa ser uma bomba hidráulica potente. Ele pesa cerca de <strong>11 quilos</strong>!</p>
+            <p>Além disso, elas possuem válvulas de segurança nas artérias do pescoço. Sem elas, quando a girafa abaixasse a cabeça para beber água, a pressão do sangue explodiria os vasos do cérebro. A natureza é perfeita!</p>
         </div>
 
-        <div class="ad-space">Espaço para Anúncio (Google AdSense)</div>
+        <div class="ad-space">Publicidade</div>
 
         <div class="post">
-            <h2>🐈 Por que os gatos dormem tanto?</h2>
-            <p>Seu gato não é preguiçoso, ele é evoluído! Gatos domésticos podem dormir até <strong>16 horas por dia</strong>. </p>
-            <p>Isso é um instinto herdado de seus ancestrais selvagens. Na natureza, predadores precisam economizar o máximo de energia possível para o momento da caça. O seu gatinho só manteve esse hábito (mesmo que a caça dele seja apenas um brinquedo de pena).</p>
+            <h2>💤 Por que os gatos dormem tanto?</h2>
+            <p>Se você acha seu gato preguiçoso, saiba que ele está apenas seguindo seus instintos selvagens. Felinos podem dormir de <strong>12 a 16 horas por dia</strong>.</p>
+            <p>Na natureza, a caça exige uma explosão gigantesca de energia. Por isso, quando não estão caçando, o corpo deles entra em modo de "economia total de bateria" para estarem prontos para a ação a qualquer momento.</p>
         </div>
 
     </div>
 
     <footer>
         <p>&copy; 2026 Curiosidades da Fauna - Todos os direitos reservados</p>
+        <p>Contato: contato@curiosidadesdafauna.com.br</p>
     </footer>
 
 </body>
